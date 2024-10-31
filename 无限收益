@@ -10155,7 +10155,7 @@ end)
 
 addcmd('explorer', {'dex'}, function(args, speaker)
 	notify('Loading', 'Hold on a sec')
-	loadstring(game:HttpGet("https://gist.githubusercontent.com/474375w/53d5734417a0a3b8e9529dedf3340055/raw/46ff57e4225c31d1334859870379587a178dbff9/dex"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/474375w/SUB-Create/refs/heads/main/dex"))()
 end)
 
 addcmd('olddex', {'odex'}, function(args, speaker)
@@ -10242,7 +10242,7 @@ addcmd('remotespy',{'rspy'},function(args, speaker)
 	notify("Loading",'Hold on a sec')
 	-- Full credit to exx, creator of SimpleSpy
 	-- also thanks to NoobSploit for fixing
-	loadstring(game:HttpGet("https://gist.githubusercontent.com/474375w/9343bacc485b92fd503e5aaf09488936/raw/ee807d9111bd5f76f56b763a6991e54785aadeaf/rspy"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/474375w/SUB-Create/refs/heads/main/rspy"))()
 end)
 
 addcmd('audiologger',{'alogger'},function(args, speaker)
